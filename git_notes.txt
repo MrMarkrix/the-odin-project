@@ -1,0 +1,11 @@
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+
+git remote -v
+
+git status
+
+git add hello_world.txt
+
+git commit -m "Add hello_world.txt"
+
+git log
