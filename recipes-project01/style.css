@@ -8,3 +8,15 @@ body{
     justify-content: center;
 
 }
+
+a:visited{
+    color:red;
+}
+
+a{
+    color:black;
+}
+
+p{
+    font-size: 120%;
+}
