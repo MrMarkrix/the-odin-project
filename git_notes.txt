@@ -9,3 +9,5 @@ git add hello_world.txt
 git commit -m "Add hello_world.txt"
 
 git log
+
+git push
