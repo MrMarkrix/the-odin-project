@@ -1,3 +1,8 @@
+body{
+    background-color: white;
+}
+
+
 .containerCentered{
     display: flex;
     justify-content: center;
