@@ -20,3 +20,13 @@ a{
 p{
     font-size: 120%;
 }
+
+*{
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+li{
+    border: 2px solid blue;
+    /*display: inline-block;*/
+}
