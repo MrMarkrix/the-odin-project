@@ -1,12 +1,33 @@
 body{
-    background-color: white;
 }
 
+.flexbox-container-vr{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.flexbox-container-hr{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox-centered{
+    width: 100px;
+}
+
+.flexbox-item1{
+    width: 500px;
+}
 
 .containerCentered{
     display: flex;
     justify-content: center;
-
 }
 
 a:visited{
@@ -22,11 +43,11 @@ p{
 }
 
 *{
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     box-sizing: border-box;
 }
 
 li{
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     /*display: inline-block;*/
 }
