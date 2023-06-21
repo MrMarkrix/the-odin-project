@@ -1,0 +1,23 @@
+CSS Units
+
+font-size
+    rem - 1=16px Relative to font-size of the root element, will adapt to changes on user side 
+
+    a tip, set html to font-size:62.5%
+    then 1 rem = 10 px
+
+width
+
+1ch - equals to the width of a character
+usually it no more than 75ch per line for readability, sometimes less
+
+height, use min-height 
+
+vh, %, rm
+
+padding/margin
+
+rem
+em - Relative to the font-size of the element
+
+Use relative units

@@ -19,10 +19,12 @@ body{
 
 .flexbox-centered{
     width: 100px;
+    flex-shrink: 0;
 }
 
 .flexbox-item1{
     width: 500px;
+    flex-shrink: 0;
 }
 
 .containerCentered{
