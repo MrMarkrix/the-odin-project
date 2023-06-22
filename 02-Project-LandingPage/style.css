@@ -1,0 +1,23 @@
+html{
+padding: 0;
+margin: 0;
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    border-bottom: 2px solid black;
+
+}
+
+.ul-header{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.ul-header a{
+    text-decoration: none;
+    color: black;
+}
