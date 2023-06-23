@@ -1,23 +1,214 @@
-html{
-padding: 0;
-margin: 0;
-}
+/*Color Palette
+001C30
+176B87
+64CCC5
+DAFFFB*/
 
-.flex-header{
+html{
+    background-color: #001C30;
+    height: 100vh;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.main-sections{
+    background-color: #dafffbd0;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav{
     display: flex;
     justify-content: space-between;
-    padding: 1%;
-    border-bottom: 2px solid black;
-
-}
-
-.ul-header{
+    align-items: center;
+    margin: 0;
+    padding: 0px 32px 0px 32px;
+    background-color: #001C30;
+    padding: 0px 10%;}
+    
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;}
+.main-nav ul{
     display: flex;
-    list-style: none;
-    gap: 24px;
+    list-style-type: none;
+    gap: 16px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav ul a{
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #176b877b;
+    text-decoration: none;
+    padding:6px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    row-gap: 16px;
+    color: white;
+    padding: 0px 32px 0px 32px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 32px 10%;
+}
+.content-image{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.content-image img{
+    min-width: 600px;
+    min-height: 400px;
+    max-width: 500px;
+    max-height: 300px;
+    
+}
+.content-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    padding:32px 90px 32px 0px;
+}
+.contentHeader{
+    font-size: 64px;
+    padding: 0;
+    margin: 0;
+    color: #DAFFFB;
+}
+.contentText{
+    font-size: 32px;
+    color: #dafffbd0;
+    padding: 0;
+    margin: 0;
+}
+.contentButton{
+
+    display: flex;
+    border: 0;
+    font-size: 24px;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background-color: #64CCC5;
+    
+}
+.cards-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+.info-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info-header{
+    padding: 0;
+    margin: 32px 0px 32px 0px ;
+    font-size: 46px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+.card-image{
+    border: 2px solid rgb(23, 107, 135);
+    padding: 64px;
+    border-radius: 10px;
+    min-width: 150px;
+    min-height: 100px;
+}
+.card-info{
+    text-align: center;
+    padding: 32px 16px 32px 16px;
+    margin: 0;
+    color: rgb(8, 35, 44);
+    font-size: 24px;
 }
 
-.ul-header a{
-    text-decoration: none;
-    color: black;
+.quote-wrap{
+    display: flex;
+    flex-direction: column;
+    background-color: #DAFFFB;
+    padding: 2% 0%;
+}
+.quote-text{
+    font-size: 32px;
+    text-align: center;
+    padding: 1% 25% 0px 25%;
+    font-style: italic;
+}
+.quote-author{
+    font-size: 26px;
+    text-align: right;
+    padding: 0px 27% 0px 30%;
+    margin: 0px 0px 24px 0px;
+    font-weight: bold;
+}
+.call-main{
+    background-color: white;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.call-wrap{
+    background-color: #176B87;
+    padding: 16px 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    border-radius: 20px;
+}
+.left-call-header{
+    color: #DAFFFB;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.left-call-text{
+    color: #DAFFFB;
+    font-style: italic;
+}
+.right-call-button{
+    display: flex;
+    border: 0;
+    font-size: 24px;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background-color: #64CCC5;
+}
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text{
+    color: #DAFFFB;
+    font-style: italic;
 }
