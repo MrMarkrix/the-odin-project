@@ -17,8 +17,11 @@ function theGame(){
     const choices = ['Rock', 'Paper', 'Scissors'];
     let userInput = prompt('Choose your weapon (Rock, Paper, Scissors):');
     
-    // Validate user input
-    while (!choices.includes(userInput)) {
+    // Validate user input,
+    // while creates a loop, that checks if userInput is within Choices
+    // if not the loop again
+    
+    while (choices.includes(userInput) === false) {
       userInput = prompt('Invalid input. Please choose Rock, Paper, or Scissors:');
     }
     
