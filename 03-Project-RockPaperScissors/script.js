@@ -2,36 +2,37 @@ let userScore = 0;
 let computerScore = 0;
 
 function theGame(){
-while (userScore <3 && computerScore <3){
 
   function computerRandom() {
-      const choices = ['Rock', 'Paper', 'Scissors'];
-      const randomRandom = Math.floor(Math.random() * choices.length);
-      return choices[randomRandom];
-    };
+    const choices = ['Rock', 'Paper', 'Scissors'];
+    const randomRandom = Math.floor(Math.random() * choices.length);
+    return choices[randomRandom];
+  };
 
-    //The function generates a random index using Math.random() 
-    //multiplied by the length of the choices array (choices.length).
-    //It then returns the string value at the randomly generated index from the choices array.
-  
-  const computerChoice = computerRandom();
-  
+  //The function generates a random index using Math.random() 
+  //multiplied by the length of the choices array (choices.length).
+  //It then returns the string value at the randomly generated index from the choices array.
+
   function userInput() {
-      const choices = ['Rock', 'Paper', 'Scissors'];
-      let userInput = prompt('Choose your weapon (Rock, Paper, Scissors):');
-      
-      // Validate user input
-      while (!choices.includes(userInput)) {
-        userInput = prompt('Invalid input. Please choose Rock, Paper, or Scissors:');
-      }
-      
-      return userInput;
-    };
+    const choices = ['Rock', 'Paper', 'Scissors'];
+    let userInput = prompt('Choose your weapon (Rock, Paper, Scissors):');
+    
+    // Validate user input
+    while (!choices.includes(userInput)) {
+      userInput = prompt('Invalid input. Please choose Rock, Paper, or Scissors:');
+    }
+    
+    return userInput;
+  };
 
-    //Function prompts the user to choose a weapon (Rock, Paper, or Scissors). 
-    //It then validates the user's input by checking if it is included in the choices array.
-    //If the user enters an invalid input, the function will continue to prompt until a valid input is provided.
+  //Function prompts the user to choose a weapon (Rock, Paper, or Scissors). 
+  //It then validates the user's input by checking if it is included in the choices array.
+  //If the user enters an invalid input, the function will continue to prompt until a valid input is provided.
 
+
+while (userScore <3 && computerScore <3){
+
+  const computerChoice = computerRandom();
   const userChoice = userInput();
 
   console.log ("User: ", userChoice);
