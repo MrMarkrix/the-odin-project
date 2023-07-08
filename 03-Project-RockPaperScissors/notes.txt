@@ -1,0 +1,58 @@
+Creating a function that randomly returns Rock Paper Scissors(done)
+
+Create a function that takes user input(done)
+Note: i used an input validation, to make sure user enters correct value
+
+Create a logic for winning and losing:
+
+Function takes UserInput and ComputerInput;
+
+let userScore = 0;
+let computerScore =0;
+
+then compares
+
+if Rock is choosen by user,
+then computerValue = Rock, if true, then console.log "It's a draw!"
+if not, computerValue = Scissors, if true, then console.log "You Win! Rock beats Scissors!"
+and increment userScore++
+if not, computerValue = Paper, then console.log "You Lose! You Rock is wrapped by Paper!"
+and increment computerScore++
+
+if Scissors is choosen by user,
+then ComputerValue = Scissors, if true console.log "It's a draw!"
+if not, computerValue = Rock, if true console.log "You Lose! Your Scissors are broken by Rock!"
+and increment computerScore++
+if not, computerValue = Paper, then console.log "You Win! Your Scissors sliced the Paper"
+
+if Paper is choosen by user,
+then ComputerValue = Paper, if true console.log "It's a draw!"
+if not, computerValue = Scissors, if true console.log "You Lose! Your Paper was sliced by Scissors!"
+and increment computerScore++
+if not, computerValue = Rock, then console.log "You Win! Your Paper wrapped up the Rock"
+and increment userScore++
+
+check if userScore or computerScore = 3;
+if true, compare userScore and computerScore, console.log the winner,
+if not, start the game again.
+
+
+
+
+
+
+
+Create lines for winning and losing:
+You Lose! Rock beats Scissors!
+You Lose! Scissors beats Paper!
+You Lose! Paper beats Rock!
+
+You Win! Rock beats Scissors!
+You Win! Scissors beats Paper!
+You Win! Paper beats Rock!
+
+else
+
+It's a draw!
+
+Function to store Score and play till 1 player has score of 3.
