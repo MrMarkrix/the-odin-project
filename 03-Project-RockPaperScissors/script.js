@@ -48,39 +48,45 @@ while (userScore <3 && computerScore <3){
     else if (userChoice === 'Rock' && computerChoice === 'Scissors') {
       console.log("You Win! Your Rock smashed the Scissors!");
       alert("You Win! Your Rock smashed the Scissors!");
-      userScore++;}
+      userScore++;
+    }
     
     else if (userChoice === 'Rock' && computerChoice === 'Paper') {
       console.log("You Lose! Your Rock was wrapped by Paper!");
       alert("You Lose! Your Rock was wrapped by Paper!");
-      computerScore++;}
+      computerScore++;
+    }
 
     else if (userChoice === 'Paper' && computerChoice === 'Rock') {
       console.log("You Win! Your Paper wrapped the Rock!");
       alert("You Win! Your Paper wrapped the Rock!");
-      userScore++;} 
+      userScore++;
+    } 
       
     else if (userChoice === 'Paper' && computerChoice === 'Scissors') {
       console.log("You Lose! Your Paper was sciced by Scissors!");
       alert("You Lose! Your Paper was sciced by Scissors!");
-      computerScore++;}
+      computerScore++;
+    }
 
     else if (userChoice === 'Scissors' && computerChoice === 'Paper') {
       console.log("You Win! Your Scissors sliced the Paper!");
       alert("You Win! Your Scissors sliced the Paper!");
-      userScore++;} 
+      userScore++;
+    } 
         
     else if (userChoice === 'Scissors' && computerChoice === 'Rock') {
       console.log("You Lose! Your Scissors were smashed by Rock!");
       alert("You Lose! Your Scissors were smashed by Rock!");
-      computerScore++;}
+      computerScore++;
+    }
   }
   
   if (userScore === 3) {
-    alert('Congratulations! You won the game!')||
+    alert('Congratulations! You won the game!');
     console.log('Congratulations! You won the game!');
   } else {
-    alert('Oops! The Computer won the game!') ||
+    alert('Oops! The Computer won the game!');
     console.log('Oops! The Computer won the game!');
   }
 }
