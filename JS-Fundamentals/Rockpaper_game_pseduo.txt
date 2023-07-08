@@ -1,0 +1,21 @@
+when player chooses rock/paper/scisors,
+ai will randomly select rock/paper/scisors,
+then compare
+
+draw:
+rock = rock;
+paper = paper;
+scissors = scissors;
+
+winnig:
+rock < paper;
+paper < scissors;
+scissors < rock;
+
+player.choice compare with ai.choise
+if player win increment player score+
+if ai win increment ai score+
+if = then nothing
+
+if score is player.score = 3 - You win!
+if score is ai.score = 3 - You lose!

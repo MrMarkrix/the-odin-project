@@ -1,0 +1,90 @@
+/*Color Palette
+001C30
+176B87
+64CCC5
+DAFFFB*/
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    border: 5px solid black;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001C30;
+    font-size: 150%;
+  }
+  ul.topnav li {float: left;} 
+  ul.topnav li a {
+    display: block;
+    color: #DAFFFB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  ul.topnav li a:hover:not(.active) {background-color: #176B87;}
+  ul.topnav li a.active {background-color: #176B87;}
+  ul.topnav li.right {float: right;} 
+
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+.flex-row-rev{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #001C30;
+  padding: 2%;
+}
+.flex-column50 {
+  flex-direction: column;
+  flex: 50%;
+  max-width: 50%;
+  background-color: #001C30;
+  padding: 2%;
+}
+.flex-columnHero{
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .flex-column50 {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .flex-columnHero{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.hero-button{
+  border: 0;
+  font-size: 24px;
+  text-align: center;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #176B87;
+  color: white;
+  
+}

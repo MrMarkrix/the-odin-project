@@ -1,0 +1,25 @@
+let/var - variable (var is the old way)
+const - assings a constant value
+
+% - Remainder (8 % 3 = 2) 3+3+2
+
+**- Exponent (5 ** 2 = 25) 5 * 5
+
+++ - increment 
+-- - decrement
+
++= - Addition assignment (x += 4) x = x + 4;
+-= - x -= 3;
+*= - x *= 3;
+/= - x /= 5;
+
+
+=== 	Strict equality
+!==     Strict-non-equality
+
+
+<
+>
+>=
+<=
+
