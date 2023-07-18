@@ -1,0 +1,83 @@
+html{
+    background-color: #001C30;
+}
+
+body{
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10% 0% 10%;
+    overflow: hidden;
+    background-color: #001C30;
+    font-size: 150%;
+  }
+ul.topnav li {
+    float: left;} 
+ul.topnav li a {
+    display: block;
+    color: #DAFFFB;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+  }
+ul.topnav li a:hover:not(.active) {
+    background-color: #176B87;}
+ul.topnav li a.active {
+    background-color: #176B87;}
+ul.topnav li.right {
+    float: right;} 
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {float: none;
+}}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.flex-content-2-row{
+    display: flex;
+    text-align: center;
+    flex-shrink: 1;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+}
+
+.flex-content-2-row >.project-card > a > img{
+    max-width: 70%;
+    min-width: 70%;
+    border-radius: 10%;
+    }
+.flex-content-2-row >.project-card > a{
+    text-decoration: none;
+    font-size: 160%;
+    color: white;
+    padding-top: 2%;
+    }
+
+
+footer {
+    margin-top: auto;
+    color: white;
+    text-align: center;
+  }
+
+@media screen and (max-width: 600px){
+    .flex-container {flex-wrap: wrap;}
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1080px" width="1920px">
+  <defs>
+    <pattern id="doodad" width="2.89" height="5" viewBox="0 0 34.64101615137755 60" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="100%" height="100%" fill="rgba(247, 250, 252,1)"/>
+      <path d="M51.96 30L51.96 50L34.64 60L34.64 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M17.32 30L17.32 50L0 60L0 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M34.64 0L34.64 20L17.32 30L17.32 10z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M34.64 60L34.64 80L17.32 90L17.32 70z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M34.64 60L17.32 50L17.32 30L34.64 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M0 60L-17.32 50L-17.32 30L0 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32 30L0 20L0 0L17.32 10z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32 90L0 80L0 60L17.32 70z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M19.92 48.5L19.92 31.5L34.64 23L34.64 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M-14.72 48.5L-14.72 31.5L0 23L0 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M2.6 18.5L2.6 1.5L17.32-7L17.32 10z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M2.6 78.5L2.6 61.5L17.32 53L17.32 70z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M34.64 23L49.36 31.5L49.36 48.5L34.64 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M0 23L14.72 31.5L14.72 48.5L0 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32-7L32.04 1.5L32.04 18.5L17.32 10z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32 53L32.04 61.5L32.04 78.5L17.32 70z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M49.36 48.5L34.64 57L19.92 48.5L34.64 40z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+      <path d="M14.72 48.5L0 57L-14.72 48.5L0 40z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+      <path d="M32.04 18.5L17.32 27L2.6 18.5L17.32 10z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+      <path d="M32.04 78.5L17.32 87L2.6 78.5L17.32 70z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+      <path d="M34.64 51.05L25.07 45.53L25.07 34.48L34.64 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M0 51.05L-9.57 45.53L-9.57 34.48L0 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32 21.05L7.75 15.52L7.75 4.47L17.32 10z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32 81.05L7.75 75.53L7.75 64.47L17.32 70z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M44.21 34.47L44.21 45.53L34.64 51.05L34.64 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M9.57 34.47L9.57 45.53L0 51.05L0 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M26.89 4.47L26.89 15.52L17.32 21.05L17.32 10z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M26.89 64.47L26.89 75.53L17.32 81.05L17.32 70z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M25.07 34.48L34.64 28.95L44.21 34.47L34.64 40z" stroke-linejoin="miter" background="true" fill="rgba(45, 55, 72,1)"/>
+      <path d="M-9.57 34.48L0 28.95L9.57 34.47L0 40z" stroke-linejoin="miter" background="true" fill="rgba(45, 55, 72,1)"/>
+      <path d="M7.75 4.47L17.32-1.05L26.89 4.47L17.32 10z" stroke-linejoin="miter" background="true" fill="rgba(45, 55, 72,1)"/>
+      <path d="M7.75 64.47L17.32 58.95L26.89 64.47L17.32 70z" stroke-linejoin="miter" background="true" fill="rgba(45, 55, 72,1)"/>
+      <path d="M28.42 43.59L28.42 36.41L34.64 32.82L34.64 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M-6.22 43.59L-6.22 36.41L0 32.82L0 40z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M11.1 13.59L11.1 6.41L17.32 2.82L17.32 10z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M11.1 73.59L11.1 66.41L17.32 62.82L17.32 70z" stroke-linejoin="miter" fill="rgba(26, 32, 44,1)"/>
+      <path d="M34.64 32.82L40.86 36.41L40.86 43.59L34.64 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M0 32.82L6.22 36.41L6.22 43.59L0 40z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32 2.82L23.54 6.41L23.54 13.59L17.32 10z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M17.32 62.82L23.54 66.41L23.54 73.59L17.32 70z" stroke-linejoin="miter" fill="rgba(45, 55, 72,1)"/>
+      <path d="M40.86 43.59L34.64 47.18L28.42 43.59L34.64 40z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+      <path d="M6.22 43.59L0 47.18L-6.22 43.59L0 40z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+      <path d="M23.54 13.59L17.32 17.18L11.1 13.59L17.32 10z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+      <path d="M23.54 73.59L17.32 77.18L11.1 73.59L17.32 70z" stroke-linejoin="miter" background="true" fill="rgba(26, 32, 44,1)"/>
+    </pattern>
+  </defs>
+  <rect fill="url(#doodad)" height="200%" width="200%"/>
+</svg>
